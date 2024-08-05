@@ -49,6 +49,9 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
 }
+.header_list_el {
+    opacity: 0.7;
+}
 .header_list_el + .header_list_el {
     margin-left: 30px;
 }
@@ -57,6 +60,7 @@ h1, h2, h3 {
     text-decoration-thickness: 4px;
     text-underline-offset: 5px;
     text-decoration-color: #F1CDB3;
+    opacity: 1;
 }
 .start_screen {
     min-height: 100vh;
@@ -104,8 +108,9 @@ h1, h2, h3 {
 }
 
 .button_primary:hover {
-    background: black;
+    background: rgba(0, 0, 0, 0);
     color: #fff;
+    border: 2px #F1CDB3 solid;
 }
 .about {
     display: flex;
@@ -209,4 +214,44 @@ h1, h2, h3 {
 }
 .pets_button:hover {
     background-color: #ebe9e9;
+}
+.help {
+}
+.help_heading {
+    margin-top: 80px;
+    margin-bottom: 65px;
+    font-size: 35px;
+    line-height: 45.5px;
+    text-align: center;
+    color: #545454;
+}
+.help_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.help_blocks {
+    width: 1026px;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.help_block {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block_name {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: #545454;
+    text-align: center;
+
 }
