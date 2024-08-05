@@ -136,17 +136,21 @@ h1, h2, h3 {
     color: #4C4C4C;
 }
 .pets {
+    text-align: center;
+    padding: 100px 0;
     background-color:#ebe9e9;
 }
 .pets_heading {
     font-size: 35px;
     color: #545454;
     text-align: center; 
+    margin-bottom: 60px;
 }
 .pets_cards {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 .card {
     background-color: #FAFAFA;
@@ -159,9 +163,6 @@ h1, h2, h3 {
     margin-left: 90px;
 }
 
-.card_img {
-
-}
 .pets_name {
     font-size: 20px;
     font-family: Georgia, serif;
@@ -197,7 +198,6 @@ h1, h2, h3 {
 }
 
 .pets_button {
-    text-align: center;
     font-family: Georgia, serif;
     color: #292929;
     background-color: #F1CDB3;
@@ -205,7 +205,7 @@ h1, h2, h3 {
     font-size: 17px;
     padding: 15px 45px;
     border-radius: 100px;
-    
+
 }
 .pets_button:hover {
     background-color: #ebe9e9;
