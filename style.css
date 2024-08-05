@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif; 
     font-size: 15px;
     font-weight: 400;
-    color: #FFFFFF;
     margin: 0;
     background-color: #fff;
 }
@@ -33,6 +32,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #FFFFFF;
 }
 .header_logo {
 }
@@ -43,7 +43,6 @@ h1, h2, h3 {
 }
 .logo_subtitle {
     font-size: 14px;
-
 }
 .header_nav {
     color:#FAFAFA;
@@ -79,6 +78,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #FFFFFF;
 }
 .start_screen_pupy {
     width: 698px;
@@ -113,4 +113,34 @@ h1, h2, h3 {
 .button_primary:hover {
     background: black;
     color: #fff;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.about_content {
+    width: 430px;
+    height: 380px;
+    margin-left: 120px;
+}
+.about_heading {
+    width: 350px;
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #545454;
+}
+.about_subheading_1 {
+    font-size: 15px;
+    margin-bottom: 35px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+.about_subheading_2 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+.about_pets_img {
 }
