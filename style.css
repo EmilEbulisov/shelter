@@ -258,24 +258,40 @@ h1, h2, h3, h4 {
 .donation {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #ebe9e9;
+    padding: 100px 0;
 
 }
 .donation_img {
 }
 .donation_container {
+    width: 380px;
+    margin-left: 30px;
 }
 .donation_heading {
     font-size: 35px;
     color: #545454;
+    line-height: 45.5px;
+    margin-bottom: 30px;
 }
 .donation_subheading {
     font-size: 15px;
     color: #545454;
+    margin-bottom: 30px;
 }
 .credit_card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #F1CDB3;
+    width: 291px;
+    border-radius: 9px;
+    padding: 15px;
     color: #545454;
     font-size: 20px;
     font-family: Georgia, serif;
+    margin-bottom: 30px;
 }
 .credit_card::before {
     content: url("./images/icons/credit-card.svg");
@@ -283,7 +299,11 @@ h1, h2, h3, h4 {
     width: 30px;
     height: 23px;
 }
+.card_num {
+    margin-left: 15px;
+}
 .donation_info {
     color: #B2B2B2;
     font-size: 12px;
+    line-height: 18px;
 }
