@@ -21,7 +21,7 @@ p {
 p + p {
     margin-top: 15px;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Georgia, serif;
     margin: 0;
     font-weight: 400;
@@ -254,4 +254,36 @@ h1, h2, h3 {
     color: #545454;
     text-align: center;
 
+}
+.donation {
+    display: flex;
+    justify-content: center;
+
+}
+.donation_img {
+}
+.donation_container {
+}
+.donation_heading {
+    font-size: 35px;
+    color: #545454;
+}
+.donation_subheading {
+    font-size: 15px;
+    color: #545454;
+}
+.credit_card {
+    color: #545454;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+.credit_card::before {
+    content: url("./images/icons/credit-card.svg");
+    color: #545454;
+    width: 30px;
+    height: 23px;
+}
+.donation_info {
+    color: #B2B2B2;
+    font-size: 12px;
 }
