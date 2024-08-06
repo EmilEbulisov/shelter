@@ -56,11 +56,15 @@ h1, h2, h3, h4 {
     margin-left: 30px;
 }
 .header_list_el:hover{
+    opacity: 1;
+}
+.header_list_el_main {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 5px;
     text-decoration-color: #F1CDB3;
     opacity: 1;
+    margin-right: 30px;
 }
 .start_screen {
     min-height: 100vh;
@@ -216,8 +220,6 @@ h1, h2, h3, h4 {
 .pets_button:hover {
     background-color: #ebe9e9;
 }
-.help {
-}
 .help_heading {
     margin-top: 80px;
     margin-bottom: 65px;
@@ -263,8 +265,6 @@ h1, h2, h3, h4 {
     background-color: #ebe9e9;
     padding: 100px 0;
 
-}
-.donation_img {
 }
 .donation_container {
     width: 380px;
@@ -347,5 +347,48 @@ h1, h2, h3, h4 {
     content: url("./images/icons/icon-pin.svg");
     margin-right: 20px;
 }
-.footer_img {
+
+/* Страница Pet */
+.pet_header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pet_logo_title {
+    font-size: 32px;
+    color: #545454;
+    margin-bottom: 10px;
+}
+.pet_logo_subtitle {
+    font-size: 14px;
+    color: #292929;
+}
+.pet_header_nav {
+    color: #292929;
+}
+.pet_header_list {
+    display: flex;
+    justify-content: space-between;
+}
+.pet_header_list_el {
+    opacity: 0.7;
+}
+.pet_header_list_el + .pet_header_list_el {
+    margin-left: 30px;
+}
+.pet_header_list_el:hover{
+    opacity: 1;
+}
+.pet_header_list_el_main {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
+    text-decoration-color: #F1CDB3;
+    opacity: 1;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.pet_header a {
+    color: #292929;
 }
