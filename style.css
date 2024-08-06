@@ -354,6 +354,7 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
 }
 .pet_logo_title {
     font-size: 32px;
@@ -391,4 +392,47 @@ h1, h2, h3, h4 {
 }
 .pet_header a {
     color: #292929;
+}
+.pet_main {
+    padding-top: 80px;
+    background-color: #f6f6f6;
+}
+.pet_heading {
+    font-family: Georgia, serif;
+    color: #545454;
+    font-size: 35px;
+    line-height: 45.5px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pet_blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .block + .block{
+    margin-left: 60px;
+} */
+.block {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    text-align: center;
+    border-radius: 20px;
+}
+.pet_page_buttons {
+}
+.l1 {
+    
+}
+.l2 {
+}
+.page_number_button {
+}
+.r1 {
+}
+.r2 {
 }
